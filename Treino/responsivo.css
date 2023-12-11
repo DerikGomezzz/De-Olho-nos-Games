@@ -1,0 +1,268 @@
+/* 4k */
+
+@media(min-width:1500px) and (max-width:2601px)
+
+{
+h1
+{
+   font-size: 60px;
+}
+h2
+{
+   font-size: 55px;
+}
+h3
+{
+   font-size: 50px;
+}
+h4
+{
+   font-size: 40px;
+}
+
+p
+{
+   font-size: 35px;
+}
+.proll
+{
+   font-size: 45px;
+}
+
+.paragrafo1
+{
+   font-size: 45px;
+}
+
+.botao
+{
+   font-size: 60px;
+   gap: 30px;
+}
+.botao2
+{
+   font-size: 40px;
+
+}
+
+.logo1 
+{
+ width: 50px;
+ height: 50px;
+}
+
+.mural2
+{
+   height: 800px;
+   width: 1300px;
+}
+
+#inicio
+{
+   justify-content: center;
+   align-items: center;
+   font-size: 120px;
+   flex-wrap: wrap;    
+}
+
+.gif1
+{
+   width: 1500px;
+   height: 9000px;
+}
+
+.logo1
+{
+   width: 150px;
+   height: 150px;
+}
+
+.menu-header
+{
+   margin: 0px 20px;
+   padding: 20px ;
+}
+.menu-header a
+{
+   margin: 0px 20px;
+}
+
+}
+/* Pc(Computador; sem muita alteração, porque ja esta correto) */
+
+@media(min-width:1024px) and (max-width:1499px)
+
+{
+ #area-gamer
+ {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   margin: 20px 50px;
+ }
+
+
+ .mural2
+ {
+   display: flex;
+   flex-wrap: wrap;
+   width: 900px;
+   height: 600px;
+ }
+ .botao
+ {
+   font-size: 20px;
+   gap: 20px;
+ }
+ .menu-header a
+ {
+   margin: 20px;
+   gap: 10px;
+ }
+}
+
+/* tablet */
+
+@media(min-width:768px) and (max-width:1023)
+
+{
+
+   h1
+{
+   font-size: 50px;
+}
+
+h2
+{
+   font-size: 45px;
+}
+
+h3
+{
+   font-size: 40px;
+}
+
+h4
+{
+   font-size: 35px;
+}
+
+p
+{
+   font-size: 25px;
+}
+
+
+
+  #inicio
+ {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;    
+         
+  }
+.menu-header a
+{
+   display: flex;
+   margin: 0px 15px;
+   flex-wrap: wrap;
+}
+
+.mural2
+ {
+      width: 900px;
+      height: 700px;
+      display: flex;
+      flex-wrap: wrap;
+ }
+
+#area-gamer 
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;    
+}
+
+ #quem-somos
+{
+       
+   
+   flex-wrap: wrap;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+   .sin1
+    {
+      font-size: 30px;
+      margin: 0px 15px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+       
+}
+
+
+
+
+/* Celular */
+
+@media (min-width:360px) and (max-width:500px)
+{
+#inicio
+{
+   
+   justify-content: center;
+   align-items: center;
+   font-size: 120px;
+   flex-wrap: wrap;
+}
+
+ #area-gamer 
+{
+   justify-content: center;
+   align-items: center;
+   font-size: 120px;
+   flex-wrap: wrap;
+}
+
+#quem-somos
+{
+   
+    font-size: 40px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sin1
+{
+    font-size: 34px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  
+   
+}
+p
+{
+   font-size: 50px;
+}
+#duvidas
+{
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   font-size: 40px;
+}
+
+}
+
+
